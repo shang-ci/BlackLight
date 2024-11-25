@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//玩家行走状态
 public enum ControlWalkState {
     Moving,
     Idle
 }
 
+//控制player的移动
 public class PlayerMove : MonoBehaviour {
 
     public float speed = 4;
@@ -20,23 +22,31 @@ public class PlayerMove : MonoBehaviour {
         controller = this.GetComponent<CharacterController>();
         attack = this.GetComponent<PlayerAttack>();
     }
-	// Update is called once per frame
-	void Update () {
-        if (attack.state == PlayerState.ControlWalk) {
+
+    void Update()
+    {
+        if (attack.state == PlayerState.ControlWalk)
+        {
             float distance = Vector3.Distance(dir.targetPosition, transform.position);
-            if (distance > 0.3f) {
+            if (distance > 0.3f)
+            {
                 isMoving = true;
                 state = ControlWalkState.Moving;
                 controller.SimpleMove(transform.forward * speed);
-            } else {
+            }
+            else
+            {
                 isMoving = false;
                 state = ControlWalkState.Idle;
             }
-        }
-	}
 
-    public void SimpleMove(Vector3 targetPos) {
+        }
+    }
+
+    public void SimpleMove(Vector3 targetPos)
+    {
         transform.LookAt(targetPos);
         controller.SimpleMove(transform.forward * speed);
     }
 }
+

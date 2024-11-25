@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//小地图
 public class Minimap : MonoBehaviour {
 
     private Camera minimapCamera;
@@ -13,6 +14,7 @@ public class Minimap : MonoBehaviour {
         //放大
         minimapCamera.orthographicSize--;
     }
+
     public void OnZoomOutClick() {
         //缩小
         minimapCamera.orthographicSize++;

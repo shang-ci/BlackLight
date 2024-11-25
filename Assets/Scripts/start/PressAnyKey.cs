@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PressAnyKey : MonoBehaviour {
 
-    private bool isAnyKeyDown = false;//表示是否有任何按键按下
+    private bool isAnyKeyDown = false;//是否有任何按键按下
     private GameObject buttonContainer;
 
     void Start() {

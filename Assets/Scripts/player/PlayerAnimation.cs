@@ -14,6 +14,7 @@ public class PlayerAnimation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void LateUpdate () {
+        //根据攻击和移动来判断动画的播放
         if (attack.state == PlayerState.ControlWalk) {
             if (move.state == ControlWalkState.Moving) {
                 PlayAnim("Run");

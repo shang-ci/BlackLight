@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//技能表
 public class SkillUI : MonoBehaviour {
 
     public static SkillUI _instance;
@@ -18,6 +19,7 @@ public class SkillUI : MonoBehaviour {
         _instance = this;
         tween = this.GetComponent<TweenPosition>();
     }
+
     void Start() {
         ps = GameObject.FindGameObjectWithTag(Tags.player).GetComponent<PlayerStatus>();
         int[] idList = null;
@@ -37,7 +39,7 @@ public class SkillUI : MonoBehaviour {
 
     }
 
-
+    //通过右下角按钮来控制skill表的显示和消失
     public void TransformState() {
         if (isShow) {
             tween.PlayReverse(); isShow = false;

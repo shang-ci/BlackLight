@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//玩家的头像框
 public class HeadStatusUI : MonoBehaviour {
 
     public static HeadStatusUI _instance;
@@ -29,6 +30,7 @@ public class HeadStatusUI : MonoBehaviour {
         UpdateShow();
     }
 
+    //更新显示stat
     public void UpdateShow() {
         name.text = "Lv." + ps.level + " " + ps.name;
         hpBar.value = ps.hp_remain / ps.hp;

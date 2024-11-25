@@ -18,15 +18,19 @@ public class CursorManager : MonoBehaviour {
         _instance = this;
     }
 
+    //设置鼠标的样式
     public void SetNormal() {
         Cursor.SetCursor(cursor_normal, hotspot, mode);
     }
+
     public void SetNpcTalk() {
         Cursor.SetCursor(cursor_npc_talk, hotspot, mode);
     }
+
     public void SetAttack() {
         Cursor.SetCursor(cursor_attack, hotspot, mode);
     }
+
     public void SetLockTarget() {
         Cursor.SetCursor(cursor_lockTarget, hotspot, mode);
     }

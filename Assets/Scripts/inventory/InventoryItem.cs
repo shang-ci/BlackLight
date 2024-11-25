@@ -5,18 +5,23 @@ public class InventoryItem : UIDragDropItem {
 
     private UISprite sprite;
     private int id;
+    private bool isHover = false;
+
+
     void Awake() {
         sprite = this.GetComponent<UISprite>();
     }
 
     void Update() {
         if (isHover) {
-            //显示提示信息
+            //显示物品信息
             InventoryDes._instance.Show(id);
 
             if (Input.GetMouseButtonDown(1)) {
+
                 //出来穿戴功能
                 bool success = EquipmentUI._instance.Dress(id);
+
                 if (success) {
                     transform.parent.GetComponent<InventoryItemGrid>().MinusNumber();
                 }
@@ -24,11 +29,12 @@ public class InventoryItem : UIDragDropItem {
         }
     }
 
+    //处理拖拽
     protected override void OnDragDropRelease(GameObject surface) {
         base.OnDragDropRelease(surface);
         if (surface != null) {
-            if (surface.tag == Tags.inventory_item_grid) {//当拖放到了一个空的格子里面
-                if (surface == this.transform.parent.gameObject) {//拖放到了自己的格子里面
+            if (surface.tag == Tags.inventory_item_grid) {
+                if (surface == this.transform.parent.gameObject) {//拖放到了自己的格子里面时不做改变
                     
                 } else {
                     InventoryItemGrid oldParent = this.transform.parent.GetComponent<InventoryItemGrid>();
@@ -46,7 +52,7 @@ public class InventoryItem : UIDragDropItem {
                 int id = grid1.id; int num = grid1.num;
                 grid1.SetId(grid2.id, grid2.num);
                 grid2.SetId(id, num);
-            } else if (surface.tag == Tags.shortcut) {//拖到的快捷方式里面
+            } else if (surface.tag == Tags.shortcut) {//拖到快捷方式里面
                 surface.GetComponent<ShortCutGrid>().SetInventory(id);
             }
 
@@ -63,14 +69,17 @@ public class InventoryItem : UIDragDropItem {
         ObjectInfo info = ObjectsInfo._instance.GetObjectInfoById(id);
         sprite.spriteName = info.icon_name;
     }
+
     public void SetIconName(int id,string icon_name) {
         sprite.spriteName = icon_name;
         this.id = id;
     }
-    private bool isHover = false;
+
+
     public void OnHoverOver() {
         isHover = true;
     }
+
     public void OnHoverOut() {
         isHover = false;
     }

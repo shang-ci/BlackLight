@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//放在gameset上实例出一个玩家
 public class GameLoad : MonoBehaviour {
 
     public GameObject magicianPrefab;

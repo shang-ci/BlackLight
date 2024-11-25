@@ -1,0 +1,10 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname=".BMFont" preserve="nothing" serialized="true"/>
+		<type fullname=".BMGlyph" preserve="nothing" serialized="true"/>
+		<type fullname=".BMSymbol" preserve="nothing" serialized="true"/>
+		<type fullname=".EventDelegate" preserve="nothing" serialized="true"/>
+		<type fullname=".UIRect/AnchorPoint" preserve="nothing" serialized="true"/>
+		<type fullname=".UISpriteData" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//相机跟随
 public class FollowPlayer : MonoBehaviour {
 
     private Transform player;
@@ -22,26 +23,27 @@ public class FollowPlayer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.position = offsetPosition + player.position;
-        //处理视野的旋转
+        
         RotateView();
-        //处理视野的拉近和拉远效果
+        
         ScrollView();
 	}
 
+    //处理视野的拉近和拉远效果，滚动鼠标
     void ScrollView() {
-        //print(Input.GetAxis("Mouse ScrollWheel"));//向后 返回负值 (拉近视野) 向前滑动 返回正值(拉远视野)
+        //向后返回负值(拉近视野)
         distance = offsetPosition.magnitude;
         distance += Input.GetAxis("Mouse ScrollWheel")*scrollSpeed;
         distance = Mathf.Clamp(distance, 2, 18);
         offsetPosition = offsetPosition.normalized * distance;
     }
 
+    //处理视野的旋转，鼠标右键
     void RotateView() {
-        //Input.GetAxis("Mouse X");//得到鼠标在水平方向的滑动
-        //Input.GetAxis("Mouse Y");//得到鼠标在垂直方向的滑动
         if (Input.GetMouseButtonDown(1)) {
             isRotating = true;
         }
+
         if (Input.GetMouseButtonUp(1)) {
             isRotating = false;
         }
@@ -52,9 +54,12 @@ public class FollowPlayer : MonoBehaviour {
             Vector3 originalPos = transform.position;
             Quaternion originalRotation = transform.rotation;
 
-            transform.RotateAround(player.position,transform.right, -rotateSpeed * Input.GetAxis("Mouse Y"));//影响的属性有两个 一个是position 一个是rotation
+            //影响的属性有两个 一个是position 一个是rotation
+            transform.RotateAround(player.position,transform.right, -rotateSpeed * Input.GetAxis("Mouse Y"));
             float x = transform.eulerAngles.x;
-            if (x < 10 || x > 80) {//当超出范围之后，我们将属性归位原来的，就是让旋转无效 
+
+            //超出范围后将属性归位，让旋转无效，就是把他固定在哪里 
+            if (x < 10 || x > 80) {
                 transform.position = originalPos;
                 transform.rotation = originalRotation;
             }

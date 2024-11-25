@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|c:\\users\\30714\\desktop\\git\\unity\\blacklight\\blacklight\\rpgproject\\assets\\scripts\\npc\\barnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\barnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BarNPC.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\BarNPC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\npc\\BarNPC.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\BarNPC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\npc\\BarNPC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:16:00.881Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

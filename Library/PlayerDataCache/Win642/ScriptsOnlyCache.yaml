@@ -1,0 +1,1431 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - WaterSimple
+    Assembly-CSharp.dll:
+    - BarNPC
+    - ButtonContainer
+    - CharacterCreation
+    - CursorManager
+    - DestroyForTime
+    - EquipmentItem
+    - EquipmentUI
+    - ExpBar
+    - FollowPlayer
+    - FollowTarget
+    - FunctionBar
+    - GameLoad
+    - HUDText
+    - HUDTextParent
+    - HeadStatusUI
+    - Inventory
+    - InventoryDes
+    - InventoryItem
+    - InventoryItemGrid
+    - MagicSphere
+    - Minimap
+    - MovieCamera
+    - ObjectsInfo
+    - PlayerAnimation
+    - PlayerAttack
+    - PlayerDir
+    - PlayerMove
+    - PlayerStatus
+    - PressAnyKey
+    - ScrollUV
+    - ShopDrug
+    - ShopDrugNPC
+    - ShopWeaponItem
+    - ShopWeaponNPC
+    - ShopWeaponUI
+    - ShortCutGrid
+    - SkillItem
+    - SkillItemIcon
+    - SkillUI
+    - SkillsInfo
+    - Status
+    - TweenAlpha
+    - TweenPosition
+    - UIAnchor
+    - UIAtlas
+    - UIButton
+    - UICamera
+    - UIDragScrollView
+    - UIEventListener
+    - UIEventTrigger
+    - UIFollowTarget
+    - UIFont
+    - UIGrid
+    - UIInput
+    - UILabel
+    - UIPanel
+    - UIPlaySound
+    - UIRoot
+    - UIScrollBar
+    - UIScrollView
+    - UISlider
+    - UISprite
+    - UITexture
+    - UIWidget
+    - WolfBaby
+    - WolfSpawn
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+  serializedClasses:
+    Assembly-CSharp:
+    - .BMFont
+    - .BMGlyph
+    - .BMSymbol
+    - .EventDelegate
+    - .UIRect/AnchorPoint
+    - .UISpriteData
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/01_start.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 45
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1646}
+    - Class: 114
+      Script: {instanceID: 1648}
+    - Class: 114
+      Script: {instanceID: 1650}
+    - Class: 114
+      Script: {instanceID: 18370}
+    - Class: 114
+      Script: {instanceID: 18452}
+    - Class: 114
+      Script: {instanceID: 18480}
+    - Class: 114
+      Script: {instanceID: 18518}
+    - Class: 114
+      Script: {instanceID: 18544}
+    - Class: 114
+      Script: {instanceID: 18570}
+    - Class: 114
+      Script: {instanceID: 18640}
+    - Class: 114
+      Script: {instanceID: 18686}
+    - Class: 114
+      Script: {instanceID: 18720}
+    - Class: 114
+      Script: {instanceID: 18754}
+    - Class: 114
+      Script: {instanceID: 18774}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/02_character creation.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 45
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1640}
+    - Class: 114
+      Script: {instanceID: 1642}
+    - Class: 114
+      Script: {instanceID: 1644}
+    - Class: 114
+      Script: {instanceID: 1648}
+    - Class: 114
+      Script: {instanceID: 1650}
+    - Class: 114
+      Script: {instanceID: 18370}
+    - Class: 114
+      Script: {instanceID: 18480}
+    - Class: 114
+      Script: {instanceID: 18544}
+    - Class: 114
+      Script: {instanceID: 18656}
+    - Class: 114
+      Script: {instanceID: 18686}
+    - Class: 114
+      Script: {instanceID: 18754}
+    - Class: 114
+      Script: {instanceID: 18774}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/03_play.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 45
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1628}
+    - Class: 114
+      Script: {instanceID: 1630}
+    - Class: 114
+      Script: {instanceID: 1640}
+    - Class: 114
+      Script: {instanceID: 1644}
+    - Class: 114
+      Script: {instanceID: 1648}
+    - Class: 114
+      Script: {instanceID: 1650}
+    - Class: 114
+      Script: {instanceID: 1652}
+    - Class: 114
+      Script: {instanceID: 18288}
+    - Class: 114
+      Script: {instanceID: 18296}
+    - Class: 114
+      Script: {instanceID: 18304}
+    - Class: 114
+      Script: {instanceID: 18310}
+    - Class: 114
+      Script: {instanceID: 18320}
+    - Class: 114
+      Script: {instanceID: 18326}
+    - Class: 114
+      Script: {instanceID: 18348}
+    - Class: 114
+      Script: {instanceID: 18370}
+    - Class: 114
+      Script: {instanceID: 18390}
+    - Class: 114
+      Script: {instanceID: 18396}
+    - Class: 114
+      Script: {instanceID: 18398}
+    - Class: 114
+      Script: {instanceID: 18434}
+    - Class: 114
+      Script: {instanceID: 18440}
+    - Class: 114
+      Script: {instanceID: 18444}
+    - Class: 114
+      Script: {instanceID: 18448}
+    - Class: 114
+      Script: {instanceID: 18450}
+    - Class: 114
+      Script: {instanceID: 18464}
+    - Class: 114
+      Script: {instanceID: 18480}
+    - Class: 114
+      Script: {instanceID: 18498}
+    - Class: 114
+      Script: {instanceID: 18514}
+    - Class: 114
+      Script: {instanceID: 18516}
+    - Class: 114
+      Script: {instanceID: 18522}
+    - Class: 114
+      Script: {instanceID: 18530}
+    - Class: 114
+      Script: {instanceID: 18532}
+    - Class: 114
+      Script: {instanceID: 18538}
+    - Class: 114
+      Script: {instanceID: 18540}
+    - Class: 114
+      Script: {instanceID: 18542}
+    - Class: 114
+      Script: {instanceID: 18544}
+    - Class: 114
+      Script: {instanceID: 18550}
+    - Class: 114
+      Script: {instanceID: 18554}
+    - Class: 114
+      Script: {instanceID: 18570}
+    - Class: 114
+      Script: {instanceID: 18576}
+    - Class: 114
+      Script: {instanceID: 18594}
+    - Class: 114
+      Script: {instanceID: 18596}
+    - Class: 114
+      Script: {instanceID: 18598}
+    - Class: 114
+      Script: {instanceID: 18600}
+    - Class: 114
+      Script: {instanceID: 18608}
+    - Class: 114
+      Script: {instanceID: 18628}
+    - Class: 114
+      Script: {instanceID: 18634}
+    - Class: 114
+      Script: {instanceID: 18640}
+    - Class: 114
+      Script: {instanceID: 18656}
+    - Class: 114
+      Script: {instanceID: 18658}
+    - Class: 114
+      Script: {instanceID: 18664}
+    - Class: 114
+      Script: {instanceID: 18680}
+    - Class: 114
+      Script: {instanceID: 18682}
+    - Class: 114
+      Script: {instanceID: 18686}
+    - Class: 114
+      Script: {instanceID: 18716}
+    - Class: 114
+      Script: {instanceID: 18718}
+    - Class: 114
+      Script: {instanceID: 18728}
+    - Class: 114
+      Script: {instanceID: 18748}
+    - Class: 114
+      Script: {instanceID: 18750}
+    - Class: 114
+      Script: {instanceID: 18754}
+    - Class: 114
+      Script: {instanceID: 18758}
+    - Class: 114
+      Script: {instanceID: 18768}
+    - Class: 114
+      Script: {instanceID: 18774}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 45d0c5efde751fcc890031f33a5885ee
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerStatus
+  - hash:
+      serializedVersion: 2
+      Hash: 22e4ef10aa913bd479b821d8632edaed
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HeadStatusUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9fd3ec37cf7dc49cfd199a684fa50a2d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadLevelOnClick
+  - hash:
+      serializedVersion: 2
+      Hash: 58352af93cf539306c1b2b45038b02b5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DownloadTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 0434ed1dfd9680abf9b092664ad82e24
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIInput
+  - hash:
+      serializedVersion: 2
+      Hash: 1e2896eb280584473707cbed35b6874b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CharacterCreation
+  - hash:
+      serializedVersion: 2
+      Hash: a53c31095e2623e88bc951418bde3b5c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UILabel
+  - hash:
+      serializedVersion: 2
+      Hash: 2ec8eb1e556ac361a49dce964817cf22
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 61ff516b7705a9552148e353d3009a87
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIPanel
+  - hash:
+      serializedVersion: 2
+      Hash: b0617c8b49af2bdcfcf070fdb9eb3984
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UICamera
+  - hash:
+      serializedVersion: 2
+      Hash: fd4c54fae3a3bb96e3795616e35aef96
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WolfBaby
+  - hash:
+      serializedVersion: 2
+      Hash: 9ea50e4df74cbe80b61ee114dc8b1468
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenScale
+  - hash:
+      serializedVersion: 2
+      Hash: f7ec4085af84d88f54d6eef1ebc5a737
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InvDatabase
+  - hash:
+      serializedVersion: 2
+      Hash: b0bbfb2cd6f9d5e120e3313ddf4f2430
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 8efc57449d6745cb0bbdaa27f18a38b0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIButtonActivate
+  - hash:
+      serializedVersion: 2
+      Hash: 4ec8aa43beabc22f890a06fd038d23da
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LagRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 5300dcb2fccde92184df0b7ebc0d75e0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShopDrug
+  - hash:
+      serializedVersion: 2
+      Hash: e91b634d0de2c7818f3f45175dd6b866
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 4a81eb9f486ea29074af71c7887493a1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIStorageSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 4881de76ca62ae45112260144b84ab65
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIScrollView
+  - hash:
+      serializedVersion: 2
+      Hash: 380453147938650c7a7d5c804208e5b8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISavedOption
+  - hash:
+      serializedVersion: 2
+      Hash: 42f2f38d43eacd0a6cdace5c221bf45f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIScrollBar
+  - hash:
+      serializedVersion: 2
+      Hash: 46b29bb0cb5d77aa84767cc15b1d4398
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UITextList
+  - hash:
+      serializedVersion: 2
+      Hash: b13ca194b05735d66b70184f2548b478
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UICursor
+  - hash:
+      serializedVersion: 2
+      Hash: fa91aba7aeb1ad65bf164fcef5ba15a3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISoundVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 135c3b3c2e6dee1e03b63e42587dc5c9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: c84aeb854a6f3d49836bafbfb7e8dae2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIPlayTween
+  - hash:
+      serializedVersion: 2
+      Hash: 02d3e0868f09ed6de85b8cff04ff3aab
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3459430c2bd4cdc93df5794812c71b40
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayIdleAnimations
+  - hash:
+      serializedVersion: 2
+      Hash: 2d771fb0a0298340ba873e3f53074087
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIDragObject
+  - hash:
+      serializedVersion: 2
+      Hash: 22e1af90c316c84ffa84f520f4612651
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpringPosition
+  - hash:
+      serializedVersion: 2
+      Hash: b67aabed1e05ce448936d60a770c859f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIButtonRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 1a0b530869b94418cfb59c3a4606cdb0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIStretch
+  - hash:
+      serializedVersion: 2
+      Hash: 200175b9cfdc6a09bf579be2ed2bba50
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExampleDragDropSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 74e47a55de644f0c95b4ad13ff08fd67
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Minimap
+  - hash:
+      serializedVersion: 2
+      Hash: 30a6e231526d31c8331f98c9cd86ada4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LookAtTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 1f9106b624e646a3320933dcd36dbf2c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenFOV
+  - hash:
+      serializedVersion: 2
+      Hash: 61c491941399c0b9f7e2e8c0338e64f7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UICenterOnClick
+  - hash:
+      serializedVersion: 2
+      Hash: a1d5a6e64de5ffbaffa5e449a76972ae
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LagPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 3a4c439678ebe3520d7e40078ce8f58a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIDragDropContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 08f486e44bfafb7f2c570f9944635786
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: WaterSimple
+  - hash:
+      serializedVersion: 2
+      Hash: 7228bd528d46ce20c37c917f2a653ad4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UILocalize
+  - hash:
+      serializedVersion: 2
+      Hash: 3eb8d94aadbba9c50b052965c4631e01
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenPosition
+  - hash:
+      serializedVersion: 2
+      Hash: b306d69f98b490fce659a87f7cc30fe6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LanguageSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 1aa1e3de8136e8677978810a624d3877
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UITable
+  - hash:
+      serializedVersion: 2
+      Hash: 3a732fc5fe43f92b215ea0449989118a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InventoryDes
+  - hash:
+      serializedVersion: 2
+      Hash: 7cc61d16cceb220e0ef4b6a71f976ff6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMove
+  - hash:
+      serializedVersion: 2
+      Hash: bd5b826e642da729cc584ee4eeb58df6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InvAttachmentPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 5e43e914f7c9923c01c8276f9d85511c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenWidth
+  - hash:
+      serializedVersion: 2
+      Hash: b2e7955b4898c54999a34e631f6ec6bd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIImageButton
+  - hash:
+      serializedVersion: 2
+      Hash: 0812908fd397283591aa876fd67ae16c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 9ebbda0a7b6181166913b221e7ef8b0f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIDragDropItem
+  - hash:
+      serializedVersion: 2
+      Hash: 0e6c716ef84d6a98b3f6f52e57b8acf5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EquipItems
+  - hash:
+      serializedVersion: 2
+      Hash: d5f891c6712af47cf81a539dd86613c6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenOrthoSize
+  - hash:
+      serializedVersion: 2
+      Hash: 15dcb4c6cd13edc5b1cadd37c21cae9c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EquipmentItem
+  - hash:
+      serializedVersion: 2
+      Hash: 7cb8d3cdc4a8c9264ea7f3b9865a8d36
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ActiveAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 1b25dfe43f62f5a7eef433d0444209ce
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShortCutGrid
+  - hash:
+      serializedVersion: 2
+      Hash: 12ec9f8fc2960ab6115b3634b6b3b55c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkillItem
+  - hash:
+      serializedVersion: 2
+      Hash: 91cca5755c66e6e79cf66cbce2c5fd1c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameLoad
+  - hash:
+      serializedVersion: 2
+      Hash: 92b9753bb42d74c7202703b0cc5c1e49
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ObjectsInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 17dea93246ec85d04893b13c944b4209
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenAlpha
+  - hash:
+      serializedVersion: 2
+      Hash: dff9286022a2a1139a1daad8e65f061b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIWrapContent
+  - hash:
+      serializedVersion: 2
+      Hash: e52b4b7d9f61b19b2bda27069f5e0852
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIItemStorage
+  - hash:
+      serializedVersion: 2
+      Hash: 88f5efb1b1bed162fa9d493583dcc93b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISlider
+  - hash:
+      serializedVersion: 2
+      Hash: 379fa149fc6b7795c72d758cef1c86b1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIButtonScale
+  - hash:
+      serializedVersion: 2
+      Hash: 3b279f97c33dde71af81e6453762fda1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PanWithMouse
+  - hash:
+      serializedVersion: 2
+      Hash: b05975ea5f3c227d0680ddace85d190a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnvelopContent
+  - hash:
+      serializedVersion: 2
+      Hash: 799bf86c5eded78945924aa1200a0ca8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpinWithMouse
+  - hash:
+      serializedVersion: 2
+      Hash: 04ba69c0e58dc2796679e835f3681e6a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIAtlas
+  - hash:
+      serializedVersion: 2
+      Hash: c968cb2633efa9a72fde2d49ed339e36
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIForwardEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 8e0ea54f7b388a7da633cc4aa15894eb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIDrawCall
+  - hash:
+      serializedVersion: 2
+      Hash: 1ea7237bd5d8e2f2b1c71327dc143b5e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIDraggableCamera
+  - hash:
+      serializedVersion: 2
+      Hash: e9cce5afb2a188cbcfc1666d0962091b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIGrid
+  - hash:
+      serializedVersion: 2
+      Hash: 7b0c4fc67ea47bc91bda6755687402ff
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpringPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 762388e62528194f403f844494672de4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIOrthoCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 7197065f4220538af161845c4311c18e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InventoryItemGrid
+  - hash:
+      serializedVersion: 2
+      Hash: e93c2e7be5c7c86d5a4e10629667e915
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CursorManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1cee7526892078ee276bbb30984b4fbd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PressAnyKey
+  - hash:
+      serializedVersion: 2
+      Hash: 9bc25db97463d045734aa42b0acaf9ae
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HUDTextParent
+  - hash:
+      serializedVersion: 2
+      Hash: 93a439846fa820a148552c1c99ba3341
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UI2DSpriteAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 094c91cc8d79c88aefea730f696901d7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIButtonOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 78c7ed116fdbb0184e2607ad23c6e099
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkillUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5a9cbfad1428b73855e63d4082f18991
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MagicSphere
+  - hash:
+      serializedVersion: 2
+      Hash: df8aa293aa092d8972f770bdd3bf60c5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PropertyBinding
+  - hash:
+      serializedVersion: 2
+      Hash: e2e60d15e2118b185bcae480c41d9588
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIDragResize
+  - hash:
+      serializedVersion: 2
+      Hash: cd0e994d44342f911e58f7f7f7d85b55
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Status
+  - hash:
+      serializedVersion: 2
+      Hash: 4a36cdfd4cc12321d4e353dc73c41f21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIEventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: bc22d4a6a2aa67b7b2efe6575e76bf9d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShopWeaponItem
+  - hash:
+      serializedVersion: 2
+      Hash: 4bf3f1f8d3a52399c592d4ea77f68bc4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIButton
+  - hash:
+      serializedVersion: 2
+      Hash: d4d82a4e1f9901cd3e8b91d271ea2acb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DestroyForTime
+  - hash:
+      serializedVersion: 2
+      Hash: eee1a3f42a0010171b8473abd650bafa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkillsInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 046ff8a985a801c9280a6e88eeb0d7cf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Tutorial5
+  - hash:
+      serializedVersion: 2
+      Hash: b5263b018a4366c40d423a4958b0c2b5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NPC
+  - hash:
+      serializedVersion: 2
+      Hash: 32e03e01b4ada40cbfd7256d7bed7130
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIWidget
+  - hash:
+      serializedVersion: 2
+      Hash: a4d6e82d1856b45020c0c6fdce90b7e3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIDragScrollView
+  - hash:
+      serializedVersion: 2
+      Hash: df6a6b8c0b017ede40c03e4b09824cfa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIPlayAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 5684d6bce4d8e06835f3c27fcc70e533
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnimationSpeed
+  - hash:
+      serializedVersion: 2
+      Hash: 19cdbbdb1d9d58af1e52f90115c776f6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISliderColors
+  - hash:
+      serializedVersion: 2
+      Hash: 4925de7f85504af015eb41d11e1956bc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISnapshotPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 0f1378a89db0dd15b1dc02caa0c0287d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Inventory
+  - hash:
+      serializedVersion: 2
+      Hash: 9c905def4b1e3cb85591437a80fc00e8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 2d39193423afef0a162161812fbde6c8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BarNPC
+  - hash:
+      serializedVersion: 2
+      Hash: 26d4a897e298e05fcade3593d9d4ee36
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InventoryItem
+  - hash:
+      serializedVersion: 2
+      Hash: 872c89e5fc17323c63863b8c78b78410
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISpriteAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: fcad1216467a217fc17f121a690197ca
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenHeight
+  - hash:
+      serializedVersion: 2
+      Hash: 86552715f0a404853a44b003bc337fe0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIButtonMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 0713b5ab71b03bec7961743741197c8c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerAttack
+  - hash:
+      serializedVersion: 2
+      Hash: 9a3fbc2df9effa25a7197fdd06f8b8ec
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIKeyNavigation
+  - hash:
+      serializedVersion: 2
+      Hash: d2bd94ba85fa1cd55fb9b120f66c505a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIDragCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 08d35fd8883807895a0d658c682da0bd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ChatInput
+  - hash:
+      serializedVersion: 2
+      Hash: cab5ebd0a2059f2d70001cfa84af263b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShopWeaponNPC
+  - hash:
+      serializedVersion: 2
+      Hash: 3a60da921dec71dfc5cac537b39e9fa1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OpenURLOnClick
+  - hash:
+      serializedVersion: 2
+      Hash: 7f64286d3ae31953153093bd025e9eac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIPopupList
+  - hash:
+      serializedVersion: 2
+      Hash: a89c3af21667d8103701dea9da8c5119
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerDir
+  - hash:
+      serializedVersion: 2
+      Hash: d92b60a5954379f0e30382a6afbd89ee
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UITexture
+  - hash:
+      serializedVersion: 2
+      Hash: de29ae244acc04c297f7089d0dc97996
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SetColorOnSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 9a6a38c6a643aacf079306359cd70676
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WindowDragTilt
+  - hash:
+      serializedVersion: 2
+      Hash: d54a42905b617c3c6c61a1bcb231fdce
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UITooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 4fb3fc6064bcc07c6b48b7019bca25d4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIFont
+  - hash:
+      serializedVersion: 2
+      Hash: 1ea6c9bd46c42f4c088e9c661a218c45
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkillItemIcon
+  - hash:
+      serializedVersion: 2
+      Hash: ae6362f511dd57fa9b128bc67b84241e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShopDrugNPC
+  - hash:
+      serializedVersion: 2
+      Hash: b4d21cf73ac0aaa8354fda87c475be98
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnimatedAlpha
+  - hash:
+      serializedVersion: 2
+      Hash: d721795623c8298be7cfe3c186f5ee0c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EquipRandomItem
+  - hash:
+      serializedVersion: 2
+      Hash: dfcadb7113e8651f0ad231e81a4f66d1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIButtonColor
+  - hash:
+      serializedVersion: 2
+      Hash: 727d5ee9b2bb5a7b92eceea448749d8b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WolfSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: c0ad28f5b7456319246b01c356f689f6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExpBar
+  - hash:
+      serializedVersion: 2
+      Hash: fdd125e1965f12975fe1c4abd472e6e2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIRoot
+  - hash:
+      serializedVersion: 2
+      Hash: f0dbaae14ec13384698fe86aa4ab3ab7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIDragDropRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 5c5047083f977df86783405b6c7d36fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIToggledComponents
+  - hash:
+      serializedVersion: 2
+      Hash: f171f84324fb302a93c72c2954723b85
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIWidgetContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 0146594750a2af7abeeb5da0dbbd01de
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenColor
+  - hash:
+      serializedVersion: 2
+      Hash: 306f5272d2ae0b362ace80f60ef4771c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIEquipmentSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 428d49ca06e9bf6b64d3dd459d3baa44
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InvEquipment
+  - hash:
+      serializedVersion: 2
+      Hash: 5b01614882fd50a7a3293e6a7f4493fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RealTime
+  - hash:
+      serializedVersion: 2
+      Hash: ba27849883d9aa5653334a3d432dcdc5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenVolume
+  - hash:
+      serializedVersion: 2
+      Hash: af8af4bcc6250cc945770314dc5c8140
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExampleDragDropItem
+  - hash:
+      serializedVersion: 2
+      Hash: 0d75499ea73aca9181576649f902e046
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Tags
+  - hash:
+      serializedVersion: 2
+      Hash: c3f460fff5b9b30c8b6f431ae8ec939c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 1210768575d658fabc3362be920ece33
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScrollUV
+  - hash:
+      serializedVersion: 2
+      Hash: b6757eca9b3344fb80250e553d2400b0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MovieCamera
+  - hash:
+      serializedVersion: 2
+      Hash: f520e3908a3d51bf1fa71ab9ad212459
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spin
+  - hash:
+      serializedVersion: 2
+      Hash: f5c7e66ac5454576e5191d53d79361fb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIViewport
+  - hash:
+      serializedVersion: 2
+      Hash: f48884361218c78d9d84983cf1b67b34
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIButtonKeys
+  - hash:
+      serializedVersion: 2
+      Hash: a5ee079f94cece2869134417c53c25ce
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShopWeaponUI
+  - hash:
+      serializedVersion: 2
+      Hash: e7b908b98afd5c9068434e44262ad4a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIToggledObjects
+  - hash:
+      serializedVersion: 2
+      Hash: e5ae40e51bb6025fb6e8804edd62193b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WindowAutoYaw
+  - hash:
+      serializedVersion: 2
+      Hash: 1e038a29a1451fcd7aa6ccaa2b178f8c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShaderQuality
+  - hash:
+      serializedVersion: 2
+      Hash: 1a8c8a3f68937b2f9331635c315f13a1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c3eb5e81c2622f5db02f43fb8b57
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HUDText
+  - hash:
+      serializedVersion: 2
+      Hash: 3ade76023af2f354ef8595526fda8ec9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UI2DSprite
+  - hash:
+      serializedVersion: 2
+      Hash: 2723b3a9030f32a165b25fc8def0ae3d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIPlaySound
+  - hash:
+      serializedVersion: 2
+      Hash: 41eb60ab7bc55a6fb6f31b656727ab50
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FunctionBar
+  - hash:
+      serializedVersion: 2
+      Hash: 1d5d17ac565672ee96a00ec05b8ac0c1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnimatedColor
+  - hash:
+      serializedVersion: 2
+      Hash: f62695c17c4a4183ee6f6f9a22002997
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenTransform
+  - hash:
+      serializedVersion: 2
+      Hash: bb365e8927eff937fef4ebca5bacce3a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UICenterOnChild
+  - hash:
+      serializedVersion: 2
+      Hash: 6226800bfdc2b2af418775333fcc6762
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EquipmentUI
+  - hash:
+      serializedVersion: 2
+      Hash: 23095338a915f6014e17a86799803a02
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISprite
+  - hash:
+      serializedVersion: 2
+      Hash: 0cbbbe6ef042e71125f52118dd8fc11b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIKeyBinding
+  - hash:
+      serializedVersion: 2
+      Hash: 36bd3b6a58ef270dcfd9577d80b3b1b9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TypewriterEffect
+  - hash:
+      serializedVersion: 2
+      Hash: b36a831efc14c5a712eda8f1741903b2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TweenRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 81adab0cad0d4f0097add35619abf243
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NGUIDebug
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/01_start.unity
+  - Assets/Scenes/02_character creation.unity
+  - Assets/Scenes/03_play.unity
+  playerPath: "C:/Users/30714/Desktop/projects/BlackLight\u2014plus/RPGProject.exe"

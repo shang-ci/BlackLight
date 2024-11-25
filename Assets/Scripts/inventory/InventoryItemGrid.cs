@@ -14,6 +14,7 @@ public class InventoryItemGrid : MonoBehaviour {
         numLabel = this.GetComponentInChildren<UILabel>();
 	}
 
+    //初始化一个格子，购买物品时要添加
     public void SetId(int id, int num = 1) {
         this.id = id;
         info = ObjectsInfo._instance.GetObjectInfoById(id);
@@ -28,7 +29,8 @@ public class InventoryItemGrid : MonoBehaviour {
         this.num += num;
         numLabel.text = this.num.ToString();
     }
-    //用来减去数量的，可以用来装备的穿戴,返回值，表示是否减去成功
+
+    //默认减一，用来提供一个底层的方法，提供给背包使用，什么时候要减一
     public bool MinusNumber(int num = 1) {
         if (this.num >= num) {
             this.num -= num;
@@ -43,12 +45,12 @@ public class InventoryItemGrid : MonoBehaviour {
         return false;
     }
 
-    //清空 格子存的物品信息
+    //清空格子物品信息
     public void ClearInfo() {
         id = 0;
         info = null;
         num = 0;
-        numLabel.enabled = false;
+        numLabel.enabled = false;//使得组件失效
     }
 
 

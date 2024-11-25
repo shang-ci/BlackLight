@@ -5,7 +5,7 @@ public class InventoryDes : MonoBehaviour {
 
     public static InventoryDes _instance;
     private UILabel label;
-    private float timer = 0;
+    private float timer = 0;//计时器
 
     void Awake() {
         _instance = this;
@@ -15,6 +15,7 @@ public class InventoryDes : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        //根据提示信息框的active状态来计时显示
         if (this.gameObject.activeInHierarchy == true) {
             timer -= Time.deltaTime;
             if (timer <= 0) {
@@ -23,9 +24,13 @@ public class InventoryDes : MonoBehaviour {
         }
 	}
 
+    //显示信息框
     public void Show(int id) {
-        this.gameObject.SetActive(true); timer = 0.1f;
-        transform.position = UICamera.currentCamera.ScreenToWorldPoint(Input.mousePosition);
+        this.gameObject.SetActive(true);
+        timer = 0.1f;
+
+        transform.position = UICamera.currentCamera.ScreenToWorldPoint(Input.mousePosition);//让提示框跟着鼠标
+
         ObjectInfo info = ObjectsInfo._instance.GetObjectInfoById(id);
         string des = "";
         switch (info.type) {
@@ -39,7 +44,7 @@ public class InventoryDes : MonoBehaviour {
         label.text = des;
     }
 
-
+    //药品的描述模板
     string GetDrugDes(ObjectInfo info) {
         string str = "";
         str += "名称：" + info.name + "\n";
@@ -51,6 +56,7 @@ public class InventoryDes : MonoBehaviour {
         return str;
     }
 
+    //装备的描述模板
     string GetEquipDes(ObjectInfo info) {
         string str = "";
         str += "名称：" + info.name + "\n";

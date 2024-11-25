@@ -2,21 +2,21 @@
 using System.Collections;
 using System.Collections.Generic;
 
+//管理所有的物品
 public class ObjectsInfo : MonoBehaviour {
 
     public static ObjectsInfo _instance;
 
-    private Dictionary<int, ObjectInfo> objectInfoDict = new Dictionary<int, ObjectInfo>();
+    private Dictionary<int, ObjectInfo> objectInfoDict = new Dictionary<int, ObjectInfo>();//存放物品
 
-    public TextAsset objectsInfoListText;
+    public TextAsset objectsInfoListText;//通过txt文件定义物品
 
     void Awake() {
         _instance = this;
         ReadInfo();
-
     }
 
-
+    //通过id表示获取物品
     public ObjectInfo GetObjectInfoById(int id) {
         ObjectInfo info=null;
 
@@ -25,6 +25,7 @@ public class ObjectsInfo : MonoBehaviour {
         return info;
     }
 
+    //读取我们配置好的txt，把他们塞到字典里方便获取
     void ReadInfo() {
         string text = objectsInfoListText.text;
         string[] strArray = text.Split('\n');
@@ -38,6 +39,7 @@ public class ObjectsInfo : MonoBehaviour {
             string icon_name = proArray[2];
             string str_type = proArray[3];
             ObjectType type = ObjectType.Drug;
+
             switch (str_type) {
                 case "Drug":
                     type = ObjectType.Drug;
@@ -49,22 +51,28 @@ public class ObjectsInfo : MonoBehaviour {
                     type = ObjectType.Mat;
                     break;
             }
-            info.id = id; info.name = name; info.icon_name = icon_name;
+
+            info.id = id;
+            info.name = name;
+            info.icon_name = icon_name;
             info.type = type;
+
             if (type == ObjectType.Drug) {
                 int hp = int.Parse(proArray[4]);
                 int mp = int.Parse(proArray[5]);
                 int price_sell = int.Parse(proArray[6]);
                 int price_buy = int.Parse(proArray[7]);
                 info.hp = hp; info.mp = mp;
-                info.price_buy = price_buy; info.price_sell = price_sell;
+                info.price_buy = price_buy;
+                info.price_sell = price_sell;
             } else if (type == ObjectType.Equip) {
                 info.attack = int.Parse(proArray[4]);
                 info.def = int.Parse(proArray[5]);
                 info.speed = int.Parse(proArray[6]);
                 info.price_sell = int.Parse(proArray[9]);
                 info.price_buy = int.Parse(proArray[10]);
-                string str_dresstype = proArray[7];
+                string str_dresstype = proArray[7];//装备类型
+
                 switch (str_dresstype) {
                     case "Headgear":
                         info.dressType = DressType.Headgear;
@@ -85,7 +93,8 @@ public class ObjectsInfo : MonoBehaviour {
                         info.dressType = DressType.Accessory;
                         break;
                 }
-                string str_apptype = proArray[8];
+                string str_apptype = proArray[8];//适用类型
+
                 switch (str_apptype) {
                     case "Swordman":
                         info.applicationType = ApplicationType.Swordman;
@@ -100,7 +109,7 @@ public class ObjectsInfo : MonoBehaviour {
 
             }
 
-            objectInfoDict.Add(id, info);//添加到字典中，id为key，可以很方便的根据id查找到这个物品信息
+            objectInfoDict.Add(id, info);
         }
     }
 	
@@ -108,37 +117,50 @@ public class ObjectsInfo : MonoBehaviour {
 
 
 
-//id
-//名称
-//icon名称
-//类型(药品drug)
-//加血量值
-//加魔法值
-//出售价
-//购买
+/**
+id
+名称
+icon名称
+类型
+血量值         伤害（攻击值）
+魔法值         防御值
+出售价         速度
+购买价         穿戴类型
+               适用类型
+               出售价
+               购买价
+ */
+
+
+//物品三个类型
 public enum ObjectType {
     Drug,
     Equip,
     Mat
 }
+
+//装备类型
 public enum DressType {
-    Headgear,
+    Headgear,//帽子
     Armor,
     RightHand,
     LeftHand,
     Shoe,
-    Accessory
+    Accessory//饰品
 }
+
+//适用类型（玩家选择的角色）
 public enum ApplicationType{
     Swordman,//剑士
     Magician,//魔法师
     Common//通用
 }
 
+//物品属性
 public class ObjectInfo {
-    public int id;
+    public int id;//标识
     public string name;
-    public string icon_name;//这个名称是存储在图集中的名称
+    public string icon_name;//图集中的名字
     public ObjectType type;
     public int hp;
     public int mp;

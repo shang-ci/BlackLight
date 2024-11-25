@@ -1,0 +1,687 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\inventory\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\inventory\\inventorydes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorydes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\weaponshop\\shopweaponui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weaponshop\\shopweaponui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\npc\\shopweaponnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\shopweaponnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\ui\\minimap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\minimap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\enemy\\wolfbaby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\wolfbaby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\custom\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\custom\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|c:\\users\\30714\\desktop\\git\\unity\\blacklight\\blacklight\\rpgproject\\assets\\scripts\\player\\playerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\ui\\equipmentui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\equipmentui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\ui\\functionbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\functionbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\ui\\expbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\expbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\npc\\barnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\barnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\ui\\equipmentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\equipmentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\player\\playerdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\player\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\player\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playeranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\player\\magicsphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\magicsphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\skill\\skillui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skill\\skillui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\ui\\headstatusui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\headstatusui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\custom\\objectsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\custom\\objectsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\custom\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\custom\\tags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\ui\\shortcutgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\shortcutgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\inventory\\inventoryitemgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventoryitemgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\skill\\skillsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skill\\skillsinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\skill\\skillitemicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skill\\skillitemicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\skill\\skillitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skill\\skillitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\custom\\cursormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\custom\\cursormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\custom\\gameload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\custom\\gameload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\ui\\shopdrug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\shopdrug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\enemy\\wolfspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\wolfspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\character creation\\charactercreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character creation\\charactercreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\player\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\npc\\shopdrugnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\shopdrugnpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\npc\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\weaponshop\\shopweaponitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weaponshop\\shopweaponitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\start\\pressanykey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\start\\pressanykey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\start\\moviecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\start\\moviecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\start\\buttoncontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\start\\buttoncontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\assets\\scripts\\ui\\hudtextparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21BD93AE-C013-11DB-C887-5DF3656E048C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\hudtextparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerStatus.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerStatus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\PlayerStatus.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerStatus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\PlayerStatus.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:03:28.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EquipmentUI.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\EquipmentUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\\EquipmentUI.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\EquipmentUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\\EquipmentUI.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAADwvzYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:37:11.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WolfBaby.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\enemy\\WolfBaby.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\enemy\\WolfBaby.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\enemy\\WolfBaby.cs",
+              "RelativeToolTip": "Assets\\Scripts\\enemy\\WolfBaby.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAkwEwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:48:56.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FunctionBar.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\FunctionBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\\FunctionBar.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\FunctionBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\\FunctionBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:44:05.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopWeaponNPC.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\ShopWeaponNPC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\npc\\ShopWeaponNPC.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\ShopWeaponNPC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\npc\\ShopWeaponNPC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:04:01.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\Status.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\custom\\Status.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\Status.cs",
+              "RelativeToolTip": "Assets\\Scripts\\custom\\Status.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwGUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:48:11.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Minimap.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\Minimap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\\Minimap.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\Minimap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\\Minimap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:47:04.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopWeaponUI.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\weaponshop\\ShopWeaponUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\weaponshop\\ShopWeaponUI.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\weaponshop\\ShopWeaponUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\weaponshop\\ShopWeaponUI.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAIwEgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:34:34.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryDes.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\inventory\\InventoryDes.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\inventory\\InventoryDes.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\inventory\\InventoryDes.cs",
+              "RelativeToolTip": "Assets\\Scripts\\inventory\\InventoryDes.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwDsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:34:39.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\inventory\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\inventory\\Inventory.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\inventory\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\inventory\\Inventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:12:46.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\inventory\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\inventory\\InventoryItem.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\inventory\\InventoryItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\inventory\\InventoryItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:34:40.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExpBar.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\ExpBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\\ExpBar.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\ExpBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\\ExpBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:43:39.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EquipmentItem.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\EquipmentItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\\EquipmentItem.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\EquipmentItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\\EquipmentItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:41:10.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BarNPC.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\BarNPC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\npc\\BarNPC.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\BarNPC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\npc\\BarNPC.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAmwFYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:03:39.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayerDir.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerDir.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\PlayerDir.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerDir.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\PlayerDir.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwBgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:59:57.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\PlayerMove.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAwBoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:58:13.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\PlayerAttack.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\PlayerAttack.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAQwFIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:58:03.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\PlayerAnimation.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\PlayerAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\PlayerAnimation.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:20:53.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MagicSphere.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\MagicSphere.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\MagicSphere.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\MagicSphere.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\MagicSphere.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:40:02.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SkillUI.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\skill\\SkillUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\skill\\SkillUI.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\skill\\SkillUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\skill\\SkillUI.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:28:44.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HeadStatusUI.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\HeadStatusUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\\HeadStatusUI.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\HeadStatusUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\\HeadStatusUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:45:08.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ObjectsInfo.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\ObjectsInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\custom\\ObjectsInfo.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\ObjectsInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\custom\\ObjectsInfo.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswDgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:25:26.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Tags.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\Tags.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\custom\\Tags.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\Tags.cs",
+              "RelativeToolTip": "Assets\\Scripts\\custom\\Tags.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:48:20.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ShortCutGrid.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\ShortCutGrid.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\\ShortCutGrid.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\ShortCutGrid.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\\ShortCutGrid.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwCwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:53:34.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InventoryItemGrid.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\inventory\\InventoryItemGrid.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\inventory\\InventoryItemGrid.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\inventory\\InventoryItemGrid.cs",
+              "RelativeToolTip": "Assets\\Scripts\\inventory\\InventoryItemGrid.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvygAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:34:40.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SkillsInfo.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\skill\\SkillsInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\skill\\SkillsInfo.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\skill\\SkillsInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\skill\\SkillsInfo.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAYwIcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:08:55.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SkillItemIcon.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\skill\\SkillItemIcon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\skill\\SkillItemIcon.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\skill\\SkillItemIcon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\skill\\SkillItemIcon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:23:36.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SkillItem.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\skill\\SkillItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\skill\\SkillItem.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\skill\\SkillItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\skill\\SkillItem.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAQwBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:23:35.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CursorManager.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\CursorManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\custom\\CursorManager.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\CursorManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\custom\\CursorManager.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvxkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:24:32.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GameLoad.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\GameLoad.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\custom\\GameLoad.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\custom\\GameLoad.cs",
+              "RelativeToolTip": "Assets\\Scripts\\custom\\GameLoad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:25:26.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ShopDrug.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\ShopDrug.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\\ShopDrug.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\ShopDrug.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\\ShopDrug.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAcwEgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:47:27.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CharacterCreation.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\character creation\\CharacterCreation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\character creation\\CharacterCreation.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\character creation\\CharacterCreation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\character creation\\CharacterCreation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABIwBYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:58:57.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WolfSpawn.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\enemy\\WolfSpawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\enemy\\WolfSpawn.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\enemy\\WolfSpawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\enemy\\WolfSpawn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:48:57.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FollowPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\FollowPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player\\FollowPlayer.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\player\\FollowPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player\\FollowPlayer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvyEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:17:12.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ShopDrugNPC.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\ShopDrugNPC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\npc\\ShopDrugNPC.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\ShopDrugNPC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\npc\\ShopDrugNPC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:49:04.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NPC.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\NPC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\npc\\NPC.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\npc\\NPC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\npc\\NPC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:03:48.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ShopWeaponItem.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\weaponshop\\ShopWeaponItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\weaponshop\\ShopWeaponItem.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\weaponshop\\ShopWeaponItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\weaponshop\\ShopWeaponItem.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvyYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:34:29.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PressAnyKey.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\start\\PressAnyKey.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\start\\PressAnyKey.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\start\\PressAnyKey.cs",
+              "RelativeToolTip": "Assets\\Scripts\\start\\PressAnyKey.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:34:00.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MovieCamera.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\start\\MovieCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\start\\MovieCamera.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\start\\MovieCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\start\\MovieCamera.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:33:29.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ButtonContainer.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\start\\ButtonContainer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\start\\ButtonContainer.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\start\\ButtonContainer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\start\\ButtonContainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T06:06:28.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "HUDTextParent.cs",
+              "DocumentMoniker": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\HUDTextParent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ui\\HUDTextParent.cs",
+              "ToolTip": "C:\\Users\\30714\\Desktop\\git\\unity\\BlackLight\\BlackLight\\RPGProject\\Assets\\Scripts\\ui\\HUDTextParent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ui\\HUDTextParent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:46:56.102Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

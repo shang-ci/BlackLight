@@ -4,10 +4,11 @@ using System.Collections;
 public class CharacterCreation : MonoBehaviour {
 
     public GameObject[] characterPrefabs;
-    public UIInput nameInput;//用来得到输入的文本
-    private GameObject[] characterGameObjects;
+    public UIInput nameInput;//输入的文本
+    private GameObject[] characterGameObjects;//存放实例化的角色
+
     private int selectedIndex = 0;
-    private int length;//所有可供选择的角色的个数
+    private int length;//可供选择角色个数
 
 	// Use this for initialization
 	void Start () {
@@ -19,30 +20,35 @@ public class CharacterCreation : MonoBehaviour {
         UpdateCharacterShow();
 	}
 
-    void UpdateCharacterShow() {//更新所有角色的显示 
+    //更新角色的显示，选中谁，展示谁
+    void UpdateCharacterShow() {
         characterGameObjects[selectedIndex].SetActive(true);
         for (int i = 0; i < length; i++) {
             if (i != selectedIndex) {
-                characterGameObjects[i].SetActive(false);//把为选择的角色设置为隐藏
+                characterGameObjects[i].SetActive(false);
             }
         }
     }
 
-    public void OnNextButtonClick() {//当我们点击了下一个按钮
+    //两个切换按钮
+    public void OnNextButtonClick() {
         selectedIndex++;
         selectedIndex %= length;
         UpdateCharacterShow();
     }
-    public void OnPrevButtonClick() {//当我们点击了上一个按钮
+
+    public void OnPrevButtonClick() {
         selectedIndex--;
         if (selectedIndex == -1) {
             selectedIndex = length - 1;
         }
         UpdateCharacterShow();
     }
+
     public void OnOkButtonClick() {
-        PlayerPrefs.SetInt("SelectedCharacterIndex", selectedIndex);//存储选择的角色
-        PlayerPrefs.SetString("name", nameInput.value);//存储输入的名字
+        PlayerPrefs.SetInt("SelectedCharacterIndex", selectedIndex);//存储角色
+        PlayerPrefs.SetString("name", nameInput.value);//存储名字
+
         //加载下一个场景
         Application.LoadLevel(2);
     }

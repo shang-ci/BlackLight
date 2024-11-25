@@ -12,11 +12,12 @@ public class WolfBaby : MonoBehaviour {
 
     public WolfState state = WolfState.Idle;
     public int hp = 100;
-    public int exp = 20;
+    public int exp = 20;//小怪经验值
     public int attack = 10;
     public float miss_rate = 0.2f;
-    public string aniname_death;
 
+    //动画和计时器
+    public string aniname_death;
     public string aniname_idle;
     public string aniname_walk;
     public string aniname_now;
@@ -30,6 +31,7 @@ public class WolfBaby : MonoBehaviour {
     private Color normal;
     public AudioClip miss_sound;
 
+    //显示伤害
     private GameObject hudtextFollow;
     private GameObject hudtextGo;
     public GameObject hudtextPrefab;
@@ -46,7 +48,7 @@ public class WolfBaby : MonoBehaviour {
     public float crazyattack_rate;
 
     public string aniname_attack_now;
-    public int attack_rate =1;//攻击速率 每秒
+    public int attack_rate =1;//攻击速率
     private float attack_timer = 0;
 
     public Transform target;
@@ -65,8 +67,6 @@ public class WolfBaby : MonoBehaviour {
         hudtextFollow = transform.Find("HUDText").gameObject;
     }
     void Start() {
-        //hudtextGo = GameObject.Instantiate(hudtextPrefab, Vector3.zero, Quaternion.identity) as GameObject;
-        //hudtextGo.transform.parent = HUDTextParent._instance.gameObject.transform;
         hudtextGo= NGUITools.AddChild(HUDTextParent._instance.gameObject, hudtextPrefab);
 
         hudtext = hudtextGo.GetComponent<HUDText>();
@@ -75,7 +75,6 @@ public class WolfBaby : MonoBehaviour {
         followTarget.gameCamera = Camera.main;
 
         ps = GameObject.FindGameObjectWithTag(Tags.player).GetComponent<PlayerStatus>();
-        //followTarget.uiCamera = UICamera.current.GetComponent<Camera>();
     }
 
 
@@ -83,10 +82,10 @@ public class WolfBaby : MonoBehaviour {
 
         if (state == WolfState.Death) {//死亡
             GetComponent<Animation>().CrossFade(aniname_death);
-        } else if (state == WolfState.Attack) {//自动攻击状态
+        } else if (state == WolfState.Attack) {
             AutoAttack();
         } else {//巡逻
-            GetComponent<Animation>().CrossFade(aniname_now);//播放当前动画
+            GetComponent<Animation>().CrossFade(aniname_now);
             if (aniname_now == aniname_walk) {
                 cc.SimpleMove(transform.forward * speed);
             }
@@ -113,7 +112,8 @@ public class WolfBaby : MonoBehaviour {
         }
     }
 
-    public void TakeDamage(int attack) {//受到伤害
+    //受伤
+    public void TakeDamage(int attack) {
         if (state == WolfState.Death) return;
         target = GameObject.FindGameObjectWithTag(Tags.player).transform;
         state = WolfState.Attack;
@@ -131,7 +131,6 @@ public class WolfBaby : MonoBehaviour {
             }
         }
     }
-
 
     IEnumerator ShowBodyRed() {
         body.GetComponent<Renderer>().material.color = Color.red;
@@ -155,13 +154,11 @@ public class WolfBaby : MonoBehaviour {
                 GetComponent<Animation>().CrossFade(aniname_attack_now);
                 if (aniname_attack_now == aniname_normalattack) {
                     if (attack_timer > time_normalattack) {
-                        //产生伤害 
                         target.GetComponent<PlayerAttack>().TakeDamage(attack);
                         aniname_attack_now = aniname_idle;
                     }
                 } else if (aniname_attack_now == aniname_crazyattack) {
                     if (attack_timer > time_crazyattack) {
-                        //产生伤害 
                         target.GetComponent<PlayerAttack>().TakeDamage(attack);
                         aniname_attack_now = aniname_idle;
                     }
@@ -182,9 +179,9 @@ public class WolfBaby : MonoBehaviour {
 
     void RandomAttack() {
         float value = Random.Range(0f, 1f);
-        if (value < crazyattack_rate) {//进行疯狂攻击
+        if (value < crazyattack_rate) {//疯狂攻击
             aniname_attack_now = aniname_crazyattack;
-        } else {//进行普通攻击
+        } else {//普通攻击
             aniname_attack_now = aniname_normalattack;
         }
     }

@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
-
 using System.Collections;
 
+//经验条
 public class ExpBar : MonoBehaviour {
 
     public static ExpBar _instance;
     private UISlider progressBar;
+
     void Awake() {
         _instance = this;
         progressBar = this.GetComponent<UISlider>();

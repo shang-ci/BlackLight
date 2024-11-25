@@ -11,7 +11,7 @@ public class SkillsInfo : MonoBehaviour {
     
     void Awake() {
         _instance = this;
-        InitSkillInfoDict();//初始化技能信息字典
+        InitSkillInfoDict();
     }
 
     //我们可以通过在这个方法，根据id查找到一个技能信息
@@ -106,14 +106,17 @@ public enum ApplicableRole {
     Swordman,
     Magician
 }
-//作用类型
+
+//技能作用类型
 public enum ApplyType {
-    Passive,
-    Buff,
-    SingleTarget,
-    MultiTarget
+    Passive,//增益--HP，MP
+    Buff,//增强--attack，speed，def
+
+    SingleTarget,//单个目标
+    MultiTarget//多目标
 }
-//作用属性
+
+//效果属性，当ApplyType为前两个才判断
 public enum ApplyProperty {
     Attack,
     Def,
@@ -122,12 +125,17 @@ public enum ApplyProperty {
     HP,
     MP
 }
+
 //释放类型
 public enum ReleaseType {
-    Self,
-    Enemy,
-    Position
+    Self,//当前位置释放
+    Enemy,//指定敌人位置释放
+    Position//指定位置释放
 }
+
+//技能属性
+//id，名称，icon名称（选择对应图片），技能描述，作用类型，作用属性，作用值，作用时间，消耗MP值，冷却时间，适用角色，适用等级，释放类型，释放距离
+
 //技能信息
 public class SkillInfo {
     public int id;

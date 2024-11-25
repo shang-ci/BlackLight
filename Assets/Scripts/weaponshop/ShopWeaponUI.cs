@@ -9,7 +9,7 @@ public class ShopWeaponUI : MonoBehaviour {
     public GameObject weaponItem;
     private TweenPosition tween;
     private bool isShow = false;
-    private GameObject numberDialog;
+    private GameObject numberDialog;//购买数量的小框
     private UIInput numberInput;
     private int buyid = 0;
 
@@ -38,7 +38,8 @@ public class ShopWeaponUI : MonoBehaviour {
         TransformState();
     }
 
-    void InitShopWeapon() {//初始化武器商店的信息
+    //初始化武器商店的信息
+    void InitShopWeapon() {
         foreach (int id in weaponidArray) {
             GameObject itemGo = NGUITools.AddChild(grid.gameObject, weaponItem);
             grid.AddChild(itemGo.transform);
@@ -46,7 +47,7 @@ public class ShopWeaponUI : MonoBehaviour {
         }
     }
 
-    //ok按钮点击的时候
+    //点击ok购买武器加入背包
     public void OnOkBtnClick() {
         int count = int.Parse( numberInput.value );
         if (count > 0) {
@@ -62,6 +63,7 @@ public class ShopWeaponUI : MonoBehaviour {
         numberInput.value = "0";
         numberDialog.SetActive(false);
     }
+
     public void OnBuyClick(int id) {
         buyid = id;
         numberDialog.SetActive(true);

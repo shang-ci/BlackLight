@@ -25,8 +25,9 @@ public class SkillItem : MonoBehaviour {
         icon_mask.SetActive(false);
     }
 
+    //根据等级判断技能可用
     public void UpdateShow(int level) {
-        if (info.level <= level) {//技能可用
+        if (info.level <= level) {
             icon_mask.SetActive(false);
             iconname_sprite.GetComponent<SkillItemIcon>().enabled = true;
         } else {
@@ -35,7 +36,7 @@ public class SkillItem : MonoBehaviour {
         }
     }
 
-    //通过调用这个方法，来更新显示
+    //更新显示技能的信息
     public void SetId(int id) {
         InitProperty();
         this.id = id;

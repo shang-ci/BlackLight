@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//status面板
 public class Status : MonoBehaviour {
 
     public static Status _instance;
@@ -13,6 +14,7 @@ public class Status : MonoBehaviour {
     private UILabel pointRemainLabel;
     private UILabel summaryLabel;
 
+    //三个加号，在剩余点数还有的时候会显示
     private GameObject attackButtonGo;
     private GameObject defButtonGo;
     private GameObject speedButtonGo;
@@ -33,21 +35,28 @@ public class Status : MonoBehaviour {
         speedButtonGo = transform.Find("speed_plusbutton").gameObject;
 
     }
+
     void Start() {
         ps = GameObject.FindGameObjectWithTag(Tags.player).GetComponent<PlayerStatus>();
     }
 
+    void Update() {
+        UpdateShow();
+    }
 
     public void TransformState() {
         if (isShow == false) {
             UpdateShow();
-            tween.PlayForward(); isShow = true;
+            tween.PlayForward();
+            isShow = true;
         } else {
-            tween.PlayReverse(); isShow = false;
+            tween.PlayReverse();
+            isShow = false;
         }
     }
 
-    void UpdateShow() {// 更新显示 根据ps playerstatus的属性值，去更新显示
+    // 更新显示
+    void UpdateShow() {
         attackLabel.text = ps.attack + " + " + ps.attack_plus;
         defLabel.text = ps.def + " + " + ps.def_plus;
         speedLabel.text = ps.speed + " + " + ps.speed_plus;
@@ -70,24 +79,27 @@ public class Status : MonoBehaviour {
 
     }
 
+    //三个加号逻辑
     public void OnAttackPlusClick() {
         bool success = ps.GetPoint();
         if (success) {
-            ps.attack_plus++;
+            EquipmentUI._instance.attack_plus++; 
             UpdateShow();
         }
     }
+
     public void OnDefPlusClick() {
         bool success = ps.GetPoint();
         if (success) {
-            ps.def_plus++;
+            EquipmentUI._instance.def_plus++;
             UpdateShow();
         }
     }
+
     public void OnSpeedPlusClick() {
         bool success = ps.GetPoint();
         if (success) {
-            ps.speed_plus++;
+            EquipmentUI._instance.speed_plus++;
             UpdateShow();
         }
     }

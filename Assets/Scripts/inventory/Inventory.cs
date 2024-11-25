@@ -6,11 +6,11 @@ public class Inventory : MonoBehaviour {
 
     public static Inventory _instance;
     
-    private TweenPosition tween;
+    private TweenPosition tween;//动画控制
     private int coinCount = 1000;//金币数量
 
-    public List<InventoryItemGrid> itemGridList = new List<InventoryItemGrid>();
-    public UILabel coinNumberLabel;
+    public List<InventoryItemGrid> itemGridList = new List<InventoryItemGrid>();//背包的格子
+    public UILabel coinNumberLabel;//每个格子的数目标签
     public GameObject inventoryItem;
 
     void Awake() {
@@ -19,32 +19,32 @@ public class Inventory : MonoBehaviour {
     }
 
     void Update() {
+        //获得
         if (Input.GetKeyDown(KeyCode.X)) {
             GetId(Random.Range(2001, 2023));
         }
     }
 
-    //拾取到id的物品，并添加到物品栏里面
-    //处理拾取物品的功能
+    //添加id物品，添加到背包里，处理购买功能
     public void GetId(int id,int count =1) {
-        //第一步是查找在所有的物品中是否存在该物品
-            //第二 如果存在，让num +1
-            
+
+        //第一步查找在所有的物品中是否存在该物品
         InventoryItemGrid grid = null;
         foreach (InventoryItemGrid temp in itemGridList) {
             if (temp.id == id) {
                 grid = temp; break;
             }
         }
-        if (grid != null) {//存在的情况 
-            grid.PlusNumber(count);
-        } else {//不存在的情况
+        if (grid != null) {//存在 
+            grid.PlusNumber(count);//根据购买的个数来增加number
+        } 
+        else {
             foreach (InventoryItemGrid temp in itemGridList) {
-                if (temp.id == 0) {
+                if (temp.id == 0) {//按顺序找到第一个空的格子
                     grid = temp; break;
                 }
             }
-            if (grid != null) {//第三 不过不存在，查找空的方格，然后把新创建的Inventoryitem放到这个空的方格里面
+            if (grid != null) {
                 GameObject itemGo = NGUITools.AddChild(grid.gameObject, inventoryItem);
                 itemGo.transform.localPosition = Vector3.zero;
                 itemGo.GetComponent<UISprite>().depth = 4;
@@ -53,6 +53,7 @@ public class Inventory : MonoBehaviour {
         }
     }
 
+    //背包，数量是否足够
     public bool MinusId(int id, int count = 1) {
         InventoryItemGrid grid = null;
         foreach (InventoryItemGrid temp in itemGridList) {
@@ -80,8 +81,8 @@ public class Inventory : MonoBehaviour {
         tween.PlayReverse();
     }
 
-
-    public void TransformState() {// 转变状态
+    //通过按钮来控制背包的显示和隐藏
+    public void TransformState() {
         if (isShow == false) {
             Show();
         } else {
@@ -94,11 +95,11 @@ public class Inventory : MonoBehaviour {
         coinNumberLabel.text = coinCount.ToString();//更新金币的显示
     }
 
-    //这个是取款方法，返回true表示取款成功，返回false取款失败
+    //取款方法，消费，给购买武器药品的接口使用
     public bool GetCoin(int count) {
         if (coinCount >= count) {
             coinCount -= count;
-            coinNumberLabel.text = coinCount.ToString();//更新金币的显示
+            coinNumberLabel.text = coinCount.ToString();//更新金币显示
             return true;
         }
         return false;
